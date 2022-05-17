@@ -1,0 +1,24 @@
+h1 {
+    color: tomato;
+    text-decoration: line-through;
+}
+/* we can select elements, as our selectors,
+ however their are other class selectors.. There are element, class, and id */
+
+ .green {
+     color:green;
+     text-align: center;
+ }
+
+ h2 {
+     color: blue;
+ }
+
+ #gold {
+     text-align: center;
+     background-color: gold;
+ }
+
+ div > p {
+    background-color: blanchedalmond;
+ }
