@@ -1,1 +1,21 @@
- 
+    body{
+        background: blue;
+    }
+    ol {
+        list-style: none;
+        
+        
+    }
+    .one {
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        width: 500px;
+        margin-top: -20px;
+        margin-left: -50px;
+    }
+    .two {
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        width: 500px;
+        top: 400px;
+    }
