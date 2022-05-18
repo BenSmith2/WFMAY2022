@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;   
+}
+
+.col {
+    margin: 10px;
+    background-color: rgb(136, 136, 207);
+    
+    flex: 1 ;
+}
