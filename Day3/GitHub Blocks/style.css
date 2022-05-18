@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: stretch;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.aquaRow {
+    background-color: rgb(120, 236, 221);
+}
+
+.pinkRow {
+    background-color: rgb(167, 201, 128);
+}
+
+.whiteRow {
+    background-color: rgb(179, 148, 148);
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px; /* stole this idea from aaronn nguyen */
+}
+
+img {
+    height: 200px;
+}
