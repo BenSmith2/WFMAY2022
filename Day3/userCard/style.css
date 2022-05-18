@@ -1,14 +1,23 @@
-body {
-    display: flex;
-    flex-direction: row;
+.centerCard {
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    width: 80%;
 }
 
 .card {
     background-color: aliceblue;
-    border: rgb(143, 153, 161) 2px ;
-    border-style: solid;
-    height: 500px;
-    width: 800px;
+    border: rgb(143, 153, 161) 2px solid;
+    border-top: none;
+}
+
+.topBar {
+    background-color: aquamarine;
+    color: aquamarine;
+    border: aquamarine solid 2px;
+} 
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
 }
