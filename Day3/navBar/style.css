@@ -1,0 +1,49 @@
+body{
+    font-family: Roboto;
+}
+
+.nav {
+    color: rgb(211, 224, 230);
+    background-color: rgb(204, 77, 77);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.btn {
+    background-color: aquamarine;
+    border-style:solid;
+    box-shadow: 5px 5px;
+    /* how to make font white, and 'clickable'? */
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:visited {
+    color: rgb(198, 228, 255);
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+.btn:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+/* how to make hovers, and clickable things? button shadow turns black
+*/
