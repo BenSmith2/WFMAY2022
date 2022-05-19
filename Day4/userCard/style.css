@@ -46,10 +46,16 @@
     height:25px;
 }
 
-.profile-link {
-    
+.testb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 64px;
 }
 
 .profile-link>img {
     height: 16px;
 }
+
+
