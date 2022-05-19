@@ -5,19 +5,51 @@
     width: 80%;
 }
 
+.name {
+    font-size: x-large;
+}
+
 .card {
     background-color: aliceblue;
     border: rgb(143, 153, 161) 2px solid;
     border-top: none;
+    height: 200px;
+    padding: 64px 16px 16px 32px; 
+    display: flex;
+    flex-direction: column;
 }
 
+
 .topBar {
+    
     background-color: aquamarine;
     color: aquamarine;
     border: aquamarine solid 2px;
+    padding: 32px;
 } 
 
 .profile-pic {
     height: 100px;
     width: 100px;
+    top: 32px;
+    position: absolute;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.location>img {
+    height:25px;
+}
+
+.profile-link {
+    
+}
+
+.profile-link>img {
+    height: 16px;
 }
