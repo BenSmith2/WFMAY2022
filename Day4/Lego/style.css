@@ -1,0 +1,38 @@
+.nav {
+    background-color: black;
+    color: whitesmoke;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftNav {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+
+.leftNav > ul {
+    display: flex;
+    justify-content: row;
+    gap: 20px;
+}
+
+/* top nav end */
+
+
+.mainBody {
+    display: flex;
+    flex-direction: row;
+}
+
+/* main body controls end */
+
+/* left side of body begin */
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+}
