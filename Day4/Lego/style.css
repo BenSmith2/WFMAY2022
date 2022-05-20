@@ -1,7 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .nav {
     background-color: black;
     color: whitesmoke;
-    padding: 12px;
+    /* padding: 12px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,6 +31,7 @@
 .mainBody {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 /* main body controls end */
@@ -35,4 +41,76 @@
 .leftColumn {
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    flex:3;
+}
+
+/* User Card */
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.userTopBanner {
+    background-color: rgb(97, 185, 226);
+    height: 100px;
+    border-style: solid rgb(97, 185, 226) ;
+}
+
+.profilePicture {
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 10px;
+}
+
+.userBody {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location > img {
+    width: 14px;
+}
+
+.gearIcon {
+    height: 16px;
+}
+
+/* profile card end  */
+
+/* Education start  */
+
+.educationMain {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.educationTopBorder{
+    background-color: darkcyan;
+}
+
+.educationBody {
+    height: 200px;
+    border-style: solid;
+    border-top: none;
+}
+
+.educationOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rightColumn {
+    flex:1;
 }
