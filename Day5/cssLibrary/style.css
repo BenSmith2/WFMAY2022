@@ -1,0 +1,149 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* buttonUp Project  */
+
+ button {
+     display: block;
+     margin: 10px;
+
+ }
+
+ .one {
+     color: rgb(40, 122, 122);
+     border-radius: 25px;
+     background-color: rgb(244, 246, 248);
+     border: 5px solid aquamarine;
+     padding: 5px 30px;
+ }
+
+ .two {
+     color: white;
+     background-color: green;
+     border: 0px;
+     border-radius: 50%;
+     height: 30px;
+     width: 30px;
+ }
+
+ .three {
+     color: white;
+     background-color: blue;
+     border-color: black;
+     padding: 5px 10px;
+     box-shadow: 7px 3px 5px black;
+ }
+
+ .two:hover {
+     background-color: black;
+     cursor: pointer;
+ }
+
+ .one:hover {
+     background-color: aquamarine;
+     cursor: pointer;
+ }
+
+ .three:hover {
+     background-color: black;
+     cursor: pointer;
+ }
+
+ /* End of button up project  */
+
+
+ /* Flexible columns project */
+
+ .row {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: center;
+ }
+
+ .col {
+     margin: 10px;
+     background-color: rgb(136, 136, 207);
+
+     flex: 1;
+ }
+
+ .col-2 {
+     margin: 10px;
+     background-color: rgb(136, 136, 207);
+     flex: 2;
+ }
+
+ .col-3 {
+     margin: 10px;
+     background-color: rgb(136, 136, 207);
+     flex: 3;
+ }
+
+ /* End of flexible columns */
+
+
+
+/* Navbar assignment   */
+
+ /* body{
+    font-family: Roboto;
+} */
+
+ .nav {
+     color: rgb(211, 224, 230);
+     background-color: rgb(204, 77, 77);
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .nav-links {
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     align-content: space-between;
+     flex-direction: row;
+     gap: 40px;
+ }
+
+ .btn {
+     background-color: aquamarine;
+     border-style: solid;
+     box-shadow: 5px 5px;
+     /* how to make font white, and 'clickable'? */
+ }
+
+ a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ a:visited {
+     color: rgb(198, 228, 255);
+ }
+
+ a:hover {
+     color: aquamarine;
+ }
+
+ .btn:hover {
+     color: aqua;
+     cursor: pointer;
+ }
+
+ /* how to make hovers, and clickable things? button shadow turns black
+*/
