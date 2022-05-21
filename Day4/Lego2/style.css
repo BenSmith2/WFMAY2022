@@ -8,7 +8,7 @@
 .navBarWrapper {
     height: 100px;
     width: 100%;
-    background-color:lightblue;
+    background-color:rgb(19, 24, 26);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,19 +26,44 @@
 }
 
 .leftNav {
+
+    color: azure;
     width: 100%;
-    min-width: 75%;
+    min-width: 274px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2%;
+    gap: 5%;
     /* flex:3; */
 }
 .leftNav>li {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 26px;
+}
+
+.leftNav>li>ul>a {
+    text-decoration: none;
+    color:aliceblue
+}
+.leftNav>li>ul>a:hover {
+    text-decoration: none;
+    color:lightblue;
+}
+
+button {
+    font: x-large;
+    width: 100px;
+    padding: 5px 5px;
+    color: aliceblue;
+    background-color: rgb(145, 192, 207);
+}
+button:hover {
+    cursor: pointer;
+    color: darkblue;
+    background-color: aliceblue;
 }
 
 .rightNav {
@@ -163,8 +188,11 @@
     margin-top: 25px;
 }
 
-.profileFooter {
-
+a {
+    color: black;
+}
+a:hover{
+    color: blue;
 }
 
 .profileFooter >a> img{
