@@ -1,0 +1,13 @@
+.content {
+    background-color: red;
+}
+
+.contentHeader {
+    background-color: blue;
+    width: 100px;
+    height: 75px;
+}
+
+.contentMain {
+    background-color: green;
+}
