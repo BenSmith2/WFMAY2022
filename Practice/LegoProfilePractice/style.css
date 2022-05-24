@@ -1,13 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    background-color: rgb(128, 155, 177);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 2px;
+}
+
 .content {
+    height:200px;
+    width: 400px;
+    padding: 2px;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
 }
 
 .contentHeader {
     background-color: blue;
-    width: 100px;
-    height: 75px;
+    flex:1;
 }
 
 .contentMain {
     background-color: green;
+    flex:2;
 }
