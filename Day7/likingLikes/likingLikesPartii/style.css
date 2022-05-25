@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: rgb(240, 240, 240);
+}
+
 .wrapper {
     padding: 0 10% 0 10%;
     display: flex;
@@ -13,7 +17,7 @@
 }
 
 .nav {
-    background-color: black;
+    background-color: rgb(54, 54, 54);
     color: rgb(225, 229, 233);
     height: 10vh;
     width: 100%;
@@ -54,6 +58,7 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(245, 248, 250);
+    gap: 25px;
 }
 
 .imgProfile{
@@ -73,11 +78,13 @@
     top: -20px;
 }
 
+/* end of left column exclusivity */
 
 .feed {
     /* height: 100px; */
     min-height: 100px;
     max-height: 500px;
+    /* max-width: 1000px; */
     font-size: large;
     border: 2px solid rgb(45, 44, 44);
     overflow:hidden;
@@ -104,6 +111,19 @@
     flex:1;
     flex-wrap: nowrap;
     overflow: hidden;
+}
+
+.feedTop>button {
+    background-color: lightyellow;
+    box-shadow: -2px 2px 2px rgb(138, 138, 132);
+}
+.feedTop>button:hover {
+    background-color: rgb(224, 245, 255);
+    cursor: pointer;
+    position: relative;
+    left: -2px;
+    top: 2px;
+    box-shadow: -.5px  .5px .5px rgb(85, 85, 81);
 }
 
 .feed>p {
